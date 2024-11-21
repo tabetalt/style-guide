@@ -33,6 +33,6 @@
 		"@sveltejs/adapter-static": "^3.0.6"
 	},
 	"volta": {
-			"node": "18.18.0"
+		"node": "18.18.0"
 	}
 }

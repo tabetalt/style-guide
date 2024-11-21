@@ -11,16 +11,13 @@
 	<header>
 		<img src={logo} alt="Svelte logo" />
 		<section id="menu">
-			<button class="ghost">
-				Menu
-			</button>
+			<button class="ghost"> Menu </button>
 		</section>
 	</header>
 	<section class="container">
 		<slot></slot>
 	</section>
-	<footer>
-	</footer>
+	<footer></footer>
 </main>
 
 <style scoped>

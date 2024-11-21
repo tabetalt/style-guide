@@ -1,27 +1,27 @@
 :root {
 	/* backgrounds */
-	--background-color: #F7F7FB;
-	--background-color-dark: #F7F7FB;
-	--header-background: #EFEFEF;
-	--header-background-dark: #1B202E;
-	--footer-background: #1B202E;
-	--selected-color: #E65F2B;
+	--background-color: #f7f7fb;
+	--background-color-dark: #f7f7fb;
+	--header-background: #efefef;
+	--header-background-dark: #1b202e;
+	--footer-background: #1b202e;
+	--selected-color: #e65f2b;
 
 	/* buttons */
-	--primary-color: #FFA665;
-	--secondary-color: #1B202E;
+	--primary-color: #ffa665;
+	--secondary-color: #1b202e;
 
 	/* indicators */
-	--success-color: #1A932E;
-	--danger-color: #DFA510;
-	--warning-color: #EE201C;
+	--success-color: #1a932e;
+	--danger-color: #dfa510;
+	--warning-color: #ee201c;
 	--notification-color: #a80300;
 
 	/* text */
 	--href-color: #007bff;
-	--light-color: #FFFFFF;
-	--dark-color:  #1B202E;
-	--font-family: "Helvetica", regular;
+	--light-color: #ffffff;
+	--dark-color: #1b202e;
+	--font-family: 'Helvetica', regular;
 }
 
 /* General rules */

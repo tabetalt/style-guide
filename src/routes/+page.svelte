@@ -1,7 +1,6 @@
 <script>
-	import Buttons from "./_components/buttons.svelte";
-	import Texts from "./_components/texts.svelte";
-
+	import Buttons from './_components/buttons.svelte';
+	import Texts from './_components/texts.svelte';
 </script>
 
 <div class="container">
