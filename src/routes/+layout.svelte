@@ -34,7 +34,7 @@
 				<a href="/"> Cookies </a>
 			</section>
 			<section id="find-us" class="footer-menu">
-				<b> Finn oss </b>
+				<b> Find us </b>
 				<a href="/"> Facebook </a>
 				<a href="/"> Instagram </a>
 				<a href="/"> Twitter </a>
