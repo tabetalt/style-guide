@@ -21,19 +21,19 @@
 	<footer>
 		<img src={darkLogo} alt="Tabetalt logo" />
 		<div class="link-menu">
-			<section id="sub-menu" class="footer-menu">
+			<section id="sub-menu">
 				<b> Sub-menu </b>
 				<a href="/"> Home </a>
 				<a href="/"> About </a>
 				<a href="/"> Contact </a>
 			</section>
-			<section id="legal" class="footer-menu">
+			<section id="legal">
 				<b> Legal </b>
 				<a href="/"> Privacy </a>
 				<a href="/"> Terms </a>
 				<a href="/"> Cookies </a>
 			</section>
-			<section id="find-us" class="footer-menu">
+			<section id="find-us">
 				<b> Find us </b>
 				<a href="/"> Facebook </a>
 				<a href="/"> Instagram </a>
@@ -45,12 +45,6 @@
 
 <style scoped>
 	header {
-		display: grid;
-		grid-template-columns: 1fr 3fr;
-		align-items: center;
-		padding: 1em;
-		background-color: var(--header-background);
-		min-height: 100px;
 		button {
 			width: fit-content;
 			padding: 1em;
@@ -67,13 +61,6 @@
 		width: clamp(50px, 50%, 300px);
 	}
 	footer {
-		background-color: var(--footer-background);
-		color: var(--light-color);
-		min-height: 100px;
-		padding: 1em;
-		display: grid;
-		grid-template-columns: 1fr 3fr;
-		justify-content: center;
 		img {
 			justify-self: center;
 		}
@@ -82,12 +69,12 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-	}
-	.footer-menu {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		gap: 1em;
+		section {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 1em;
+		}
 	}
 </style>
