@@ -1,6 +1,6 @@
-# Flexisoft design Style Guide
+# Tabetalt design Style Guide
 
-Welcome to the # Flexisoft design Style Guide! This guide is designed to present the general CSS rules that we want to use across all applications within our organization.
+Welcome to the Tabetalt design Style Guide! This guide is designed to present the general CSS rules that we want to use across all applications within our organization.
 
 ## Purpose
 
@@ -21,7 +21,7 @@ Thank you for your cooperation in maintaining a consistent and high-quality desi
 You can either copy paste the css file from the static directory, or reference it in your index html like this:
 
 ```html
-<link rel="stylesheet" href="https://flexisoftorg.github.io/style-guide/stylesheet.css" />
+<link rel="stylesheet" href="https://tabetalt.github.io/style-guide/stylesheet.css" />
 ```
 
 ## Contact
