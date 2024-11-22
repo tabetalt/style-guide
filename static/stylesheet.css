@@ -167,44 +167,6 @@ select {
 	flex-direction: column;
 	flex-wrap: wrap;
 }
-.box {
-	background-color: white;
-	padding: 1em;
-	border-radius: 1em;
-	&.secondary {
-		color: var(--light-color);
-		background-color: var(--background-secondary);
-	}
-}
-.chip {
-	padding: 0.5em 1em;
-	background-color: white;
-	color: var(--dark-color);
-	box-shadow: none;
-	width: auto;
-	height: 40px;
-	font-size: 14px;
-	gap: 0px;
-	border-radius: 40px;
-	border: 1px solid var(--border-color);
-	opacity: 0px;
-	text-align: center;
-	&.selected {
-		background-color: var(--selected-color);
-		color: white;
-		border: none;
-	}
-	&:hover {
-		background-color: var(--selected-color);
-		color: white;
-	}
-	&:active {
-		background-color: var(--selected-color);
-		color: white;
-		box-shadow: none;
-		margin: 0;
-	}
-}
 .notification-bubble {
 	background-color: var(--notification-color);
 	color: white;
