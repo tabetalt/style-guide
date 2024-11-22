@@ -18,7 +18,6 @@
 	--notification-color: #a80300;
 
 	/* text */
-	--href-color: #007bff;
 	--light-color: #ffffff;
 	--dark-color: #1b202e;
 	--font-family: 'Helvetica', regular;
@@ -59,7 +58,7 @@ b {
 	line-height: 1.6;
 }
 a {
-	color: var(--href-color);
+	color: var(--light-color);
 	&:hover {
 		text-decoration: underline;
 	}
@@ -113,8 +112,9 @@ button {
 }
 main {
 	display: grid;
-	height: 100vh;
+	min-height: 100vh;
 	grid-template-rows: auto 1fr auto;
+	gap: 3em;
 }
 header {
 	padding: 1em;
