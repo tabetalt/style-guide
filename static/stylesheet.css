@@ -178,4 +178,7 @@ select {
 		grid-template-columns: 1fr;
 		gap: 2em;
 	}
+	button {
+		font-size: 12px;
+	}
 }
