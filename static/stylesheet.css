@@ -59,7 +59,7 @@ b {
 a {
 	color: var(--light-color);
 	&:hover {
-			text-decoration: underline;
+		text-decoration: underline;
 	}
 }
 ul,
@@ -79,20 +79,20 @@ button {
 	cursor: pointer;
 	padding-inline: 0;
 	&:hover {
-			background-color: var(--primary-color);
+		background-color: var(--primary-color);
 	}
 	&:disabled {
-			background-color: var(--disabled-color);
-			cursor: not-allowed;
+		background-color: var(--disabled-color);
+		cursor: not-allowed;
 	}
 	&.secondary {
-			background-color: var(--secondary-color);
-			color: var(--light-color);
+		background-color: var(--secondary-color);
+		color: var(--light-color);
 	}
 	&.ghost {
-			background-color: transparent;
-			color: var(--dark-color);
-			border: 3px solid var(--primary-color);
+		background-color: transparent;
+		color: var(--dark-color);
+		border: 3px solid var(--primary-color);
 	}
 }
 main {
