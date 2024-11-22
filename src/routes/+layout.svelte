@@ -22,25 +22,19 @@
 		<img src={darkLogo} alt="Tabetalt logo" />
 		<div class="link-menu">
 			<section id="sub-menu" class="footer-menu">
-				<b>
-					Sub-menu
-				</b>
+				<b> Sub-menu </b>
 				<a href="/"> Home </a>
 				<a href="/"> About </a>
 				<a href="/"> Contact </a>
 			</section>
 			<section id="legal" class="footer-menu">
-				<b>
-					Legal
-				</b>
+				<b> Legal </b>
 				<a href="/"> Privacy </a>
 				<a href="/"> Terms </a>
 				<a href="/"> Cookies </a>
 			</section>
 			<section id="find-us" class="footer-menu">
-				<b>
-					Finn oss
-				</b>
+				<b> Finn oss </b>
 				<a href="/"> Facebook </a>
 				<a href="/"> Instagram </a>
 				<a href="/"> Twitter </a>
