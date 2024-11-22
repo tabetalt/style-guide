@@ -11,7 +11,7 @@
 
 <main>
 	<header>
-		<img src={logo} alt="Tabetalt logo" />
+		<img src={logo} class="logo" alt="Tabetalt logo" />
 		<section id="menu">
 			<button class="ghost"> Menu </button>
 		</section>
@@ -20,7 +20,7 @@
 		<slot></slot>
 	</section>
 	<footer>
-		<img src={darkLogo} alt="Tabetalt logo" />
+		<img src={darkLogo} class="logo" alt="Tabetalt logo" />
 		<div class="link-menu">
 			<section id="sub-menu">
 				<b> Sub-menu </b>
@@ -46,10 +46,6 @@
 
 <style scoped>
 	header {
-		button {
-			width: fit-content;
-			padding: 1em;
-		}
 		section {
 			display: flex;
 			justify-content: flex-end;
@@ -57,9 +53,6 @@
 		img {
 			justify-self: center;
 		}
-	}
-	img {
-		width: clamp(50px, 50%, 300px);
 	}
 	footer {
 		img {
