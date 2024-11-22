@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import logo from './logo.svg';
 	import darkLogo from './dark-logo.svg';
 	const title = 'Style guide';
@@ -23,21 +24,21 @@
 		<div class="link-menu">
 			<section id="sub-menu">
 				<b> Sub-menu </b>
-				<a href="/"> Home </a>
-				<a href="/"> About </a>
-				<a href="/"> Contact </a>
+				<a href="{base}/"> Home </a>
+				<a href="{base}/"> About </a>
+				<a href="{base}/"> Contact </a>
 			</section>
 			<section id="legal">
 				<b> Legal </b>
-				<a href="/"> Privacy </a>
-				<a href="/"> Terms </a>
-				<a href="/"> Cookies </a>
+				<a href="{base}/"> Privacy </a>
+				<a href="{base}/"> Terms </a>
+				<a href="{base}/"> Cookies </a>
 			</section>
 			<section id="find-us">
 				<b> Find us </b>
-				<a href="/"> Facebook </a>
-				<a href="/"> Instagram </a>
-				<a href="/"> Twitter </a>
+				<a href="{base}/"> Facebook </a>
+				<a href="{base}/"> Instagram </a>
+				<a href="{base}/"> Twitter </a>
 			</section>
 		</div>
 	</footer>
