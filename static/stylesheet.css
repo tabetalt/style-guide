@@ -163,10 +163,10 @@ select {
 	right: 0;
 	transform: translate(50%, -50%);
 }
-.logo {	
+.logo {
 	width: clamp(200px, 50%, 300px);
 }
-@media(max-width: 768px) {
+@media (max-width: 768px) {
 	.container {
 		width: 100%;
 	}
