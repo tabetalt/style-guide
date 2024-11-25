@@ -95,12 +95,6 @@ button {
 		border: 3px solid var(--primary-color);
 	}
 }
-main {
-	display: grid;
-	min-height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	gap: 3em;
-}
 header {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
@@ -138,6 +132,12 @@ select {
 	background-color: white;
 }
 /* Re-usable classes */
+.app {
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+	gap: 3em;
+}
 .container {
 	width: 80%;
 	height: 100%;

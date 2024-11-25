@@ -9,16 +9,16 @@
 	<title>{title}</title>
 </svelte:head>
 
-<main>
+<div class="app">
 	<header>
 		<img src={logo} class="logo" alt="Tabetalt logo" />
 		<section id="menu">
 			<button class="ghost"> Menu </button>
 		</section>
 	</header>
-	<section class="container">
+	<main class="container">
 		<slot></slot>
-	</section>
+	</main>
 	<footer>
 		<img src={darkLogo} class="logo" alt="Tabetalt logo" />
 		<div class="link-menu">
@@ -42,7 +42,7 @@
 			</section>
 		</div>
 	</footer>
-</main>
+</div>
 
 <style scoped>
 	header {
